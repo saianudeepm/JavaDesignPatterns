@@ -1,0 +1,4 @@
+Car = generic type
+CarDealer = gets cars from carfactory
+CarFactory = creates cars depending on the type of model requested
+
