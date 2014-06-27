@@ -1,0 +1,11 @@
+IRobot defines interface for Robots
+Robot is concrete implementation for IRobot
+
+IRobotBuilder defines interface for the RobotBuilders
+OldRobotBuilder is a concrete implementation for IRobotBuilder
+
+
+RobotEngineer is responsible for creating the robot given the type of Builder (OldRobotBuilder here) as the specification
+
+TestRobotBuilder class is used to actually create the Robot by specifying the OldRobotBuilder specification
+to the RobotEngineer and then by asking the RobotEngineer to make a Robot
